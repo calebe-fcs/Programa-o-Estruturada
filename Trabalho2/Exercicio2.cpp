@@ -10,10 +10,10 @@ int main()
 
     int num;
 
-    cout << (" Olá! Digite um número: \n");
+    cout << (" OlÃ¡! Digite um nÃºmero: \n");
     cin >> num;
 
-    cout << " O número informado foi " << num << ".\n";
+    cout << " O nÃºmero informado foi " << num << ".\n";
 
     return 0;
 }

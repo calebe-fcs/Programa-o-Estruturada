@@ -13,17 +13,17 @@ int main()
     char nome[50];
     float celsius, fahrenheit;
 
-    cout << (" Olá, este programa irá transformar temperaturas de Fahrenheit em Celsius. \n");
+    cout << (" OlÃ¡, este programa irÃ¡ transformar temperaturas de Fahrenheit em Celsius. \n");
     cout << (" Mas antes, diga seu nome: ");
     cin.getline(nome, 50);
-    cout << (" Certo, agora informe a temperatura em Fahrenheit de onde você está: ");
+    cout << (" Certo, agora informe a temperatura em Fahrenheit de onde vocÃª estÃ¡: ");
     cin >> fahrenheit;
 
     cout << fixed << setprecision(2);
 
     celsius = (fahrenheit - 32) * (5.0/9.0);
 
-    cout << nome << " a temperatura em Celsius é de: " << celsius << " graus.";
+    cout << nome << " a temperatura em Celsius Ã© de: " << celsius << " graus.";
 
 
 

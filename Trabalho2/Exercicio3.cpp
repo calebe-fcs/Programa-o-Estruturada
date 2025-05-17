@@ -10,13 +10,13 @@ int main()
 
     int num1, num2, soma;
 
-    cout << (" Olá! Vamos somar dois números. \n");
-    cout << (" Digite o primeiro número: ");
+    cout << (" OlÃ¡! Vamos somar dois nÃºmeros. \n");
+    cout << (" Digite o primeiro nÃºmero: ");
     cin >> num1;
-    cout << (" Digite o segundo número: ");
+    cout << (" Digite o segundo nÃºmero: ");
     cin >> num2;
     soma = num1 + num2;
-    cout << " A soma entre os números é: " << soma <<".\n";
+    cout << " A soma entre os nÃºmeros Ã©: " << soma <<".\n";
 
     return 0;
 }

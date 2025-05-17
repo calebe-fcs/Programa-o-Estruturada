@@ -11,15 +11,15 @@ int main()
     const float porc = 12.0/100.0;
     float num, resultf;
 
-    cout << (" Olá! Diga seu nome por favor...\n");
+    cout << (" OlÃ¡! Diga seu nome por favor...\n");
     cin.getline(nome, 50);
 
-    cout <<(" Ok, agora diga um número qualquer e vamos calcular 12% deste valor...\n");
+    cout <<(" Ok, agora diga um nÃºmero qualquer e vamos calcular 12% deste valor...\n");
     cin >> num;
 
     resultf = num * porc;
 
-    cout << " O resultado final é: " << resultf << " !\n";
+    cout << " O resultado final Ã©: " << resultf << " !\n";
 
 
     return 0;

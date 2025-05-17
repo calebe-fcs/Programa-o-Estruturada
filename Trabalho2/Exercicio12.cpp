@@ -11,17 +11,17 @@ int main()
     float metros_q, litros;
     int qnt_baldes, valor_t;
 
-    cout << (" Olá! Diga quantos metros quadrados você pretende pintar: \n ");
+    cout << (" OlÃ¡! Diga quantos metros quadrados vocÃª pretende pintar: \n ");
     cin >> metros_q;
 
     litros = metros_q/3;
     qnt_baldes = litros / 18;
 
-    cout << " A quantidade de baldes de tinta que você precisará será de: " << qnt_baldes << " baldes de tinta.\n";
+    cout << " A quantidade de baldes de tinta que vocÃª precisarÃ¡ serÃ¡ de: " << qnt_baldes << " baldes de tinta.\n";
 
     valor_t = qnt_baldes * 80;
 
-    cout << " E o valor a se pagar será de " << valor_t << " reais. \n";
+    cout << " E o valor a se pagar serÃ¡ de " << valor_t << " reais. \n";
 
 
     return 0;

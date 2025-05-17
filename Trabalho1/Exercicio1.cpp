@@ -13,12 +13,12 @@ int main()
     char nome_usuario[50];
     float distancia, velocidade_media, tempo_min, tempo_hora;
 
-    cout << (" Olá, este programa calculará sua velocidade média enquanto você andou de bicicleta. \n");
+    cout << (" OlÃ¡, este programa calcularÃ¡ sua velocidade mÃ©dia enquanto vocÃª andou de bicicleta. \n");
     cout << (" Mas antes, insira o seu nome: ");
     cin.getline(nome_usuario, 100);
-    cout << (" Certo, agora diga quantos Kilometros você pedalou: ");
+    cout << (" Certo, agora diga quantos Kilometros vocÃª pedalou: ");
     cin >> distancia;
-    cout << (" Ok, agora informe o tempo em que você percorreu o trageto (em minutos): ");
+    cout << (" Ok, agora informe o tempo em que vocÃª percorreu o trageto (em minutos): ");
     cin >> tempo_min;
 
     tempo_hora = tempo_min/60;
@@ -26,8 +26,8 @@ int main()
 
     cout << fixed << setprecision (1);
 
-    cout << " Muito bem " << nome_usuario << "! Você percorreu " << distancia << " Kilometros de distância, em " << tempo_min << " minutos. \n";
-    cout << " Sua velocidade média foi de : " << velocidade_media << " Kilometros por hora!";
+    cout << " Muito bem " << nome_usuario << "! VocÃª percorreu " << distancia << " Kilometros de distÃ¢ncia, em " << tempo_min << " minutos. \n";
+    cout << " Sua velocidade mÃ©dia foi de : " << velocidade_media << " Kilometros por hora!";
 
     return 0;
 }

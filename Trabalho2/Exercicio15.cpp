@@ -13,9 +13,9 @@ int main()
     cin >> num;
 
         if (num >= 0)
-            cout << " O valor " << num << " é positivo. \n";
+            cout << " O valor " << num << " Ã© positivo. \n";
         if (num < 0)
-            cout << " O valor " << num << " é negativo. \n";
+            cout << " O valor " << num << " Ã© negativo. \n";
 
 
 

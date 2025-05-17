@@ -13,7 +13,7 @@ int main()
     float nota1, nota2, nota3, mediaf;
     char nome[50];
 
-    cout << (" Olá, este programa irá calcular sua média de notas. \n");
+    cout << (" OlÃ¡, este programa irÃ¡ calcular sua mÃ©dia de notas. \n");
     cout << (" Digite seu nome por favor: ");
     cin.getline(nome, 50);
 
@@ -28,7 +28,7 @@ int main()
 
     mediaf = (nota1 + nota2 + nota3)/3;
 
-    cout << nome << " sua média final foi de " << mediaf << " pontos.";
+    cout << nome << " sua mÃ©dia final foi de " << mediaf << " pontos.";
 
 
 

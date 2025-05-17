@@ -15,7 +15,7 @@ int main()
 
     result_f = num1 * porc;
 
-    cout << " O resultado desta operação é: " << result_f << "\n";
+    cout << " O resultado desta operaÃ§Ã£o Ã©: " << result_f << "\n";
 
 
 

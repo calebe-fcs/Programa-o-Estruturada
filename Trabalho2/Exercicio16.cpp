@@ -21,7 +21,7 @@ int main()
 
         if (media == 10)
         {
-            cout << (" Aprovado com Distinção! \n");
+            cout << (" Aprovado com DistinÃ§Ã£o! \n");
         }
         else if (media >= 7.00 && media <= 9.99)
         {

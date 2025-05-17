@@ -13,12 +13,12 @@ int main()
 
     cout << fixed << setprecision(1);
 
-    cout << (" Olá, digite um valor em metros para ser transformado em centímetros. \n");
+    cout << (" OlÃ¡, digite um valor em metros para ser transformado em centÃ­metros. \n");
     cin >> metros;
 
     centimetros = metros * 100;
 
-    cout << " Em " << metros << " metro(s) você possui " << centimetros << " centímetros.";
+    cout << " Em " << metros << " metro(s) vocÃª possui " << centimetros << " centÃ­metros.";
 
     return 0;
 }

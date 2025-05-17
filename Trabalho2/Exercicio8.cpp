@@ -11,16 +11,16 @@ int main()
     char nome [50];
     float salario_hora, hora_mes, salario_mes;
 
-    cout << (" Olá! Qual o seu nome?");
+    cout << (" OlÃ¡! Qual o seu nome?");
     cin.getline(nome, 50);
-    cout << " Quanto você ganha por hora " << nome << "?";
+    cout << " Quanto vocÃª ganha por hora " << nome << "?";
     cin >> salario_hora;
-    cout << (" Quantas horas você trabalha por mês?");
+    cout << (" Quantas horas vocÃª trabalha por mÃªs?");
     cin >> hora_mes;
 
     salario_mes = salario_hora * hora_mes;
 
-    cout << nome << " ,você recebe, portanto, " << salario_mes << " reais por mês.\n";
+    cout << nome << " ,vocÃª recebe, portanto, " << salario_mes << " reais por mÃªs.\n";
 
     return 0;
 }

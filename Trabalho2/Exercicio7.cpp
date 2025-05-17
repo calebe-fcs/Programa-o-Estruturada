@@ -17,6 +17,6 @@ int main()
     area = lados * lados;
     area2 = area * 2;
 
-    cout << " O dobro da área desse quadrado é: " << area2;
+    cout << " O dobro da Ã¡rea desse quadrado Ã©: " << area2;
     return 0;
 }

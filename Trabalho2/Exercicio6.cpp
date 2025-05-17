@@ -11,12 +11,12 @@ int main()
     float raio, areac;
     const float pi = 3.14;
 
-    cout << (" Diga um raio qualquer de um círculo: \n");
+    cout << (" Diga um raio qualquer de um cÃ­rculo: \n");
     cin >> raio;
 
     areac = pi*(raio * raio);
 
-    cout << " A área deste círculo qualquer de é: " << areac << " centímetros.";
+    cout << " A Ã¡rea deste cÃ­rculo qualquer de Ã©: " << areac << " centÃ­metros.";
 
     return 0;
 }

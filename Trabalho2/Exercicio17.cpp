@@ -10,24 +10,24 @@ int main()
 
     int num1, num2, num3;
 
-    cout << (" Digite o primeiro número: \n");
+    cout << (" Digite o primeiro nÃºmero: \n");
     cin >> num1;
-    cout << (" Digite o segundo número: \n");
+    cout << (" Digite o segundo nÃºmero: \n");
     cin >> num2;
-    cout << (" Digite o terceiro número: \n");
+    cout << (" Digite o terceiro nÃºmero: \n");
     cin >> num3;
 
         if (num1 > num2 && num1 > num3)
         {
-            cout << " O maior número é: " << num1;
+            cout << " O maior nÃºmero Ã©: " << num1;
         }
         else if (num2 > num1 && num2 > num3)
         {
-            cout << " O maior número é: " << num2;
+            cout << " O maior nÃºmero Ã©: " << num2;
         }
         else if (num3 > num1 && num3 > num2)
         {
-            cout << " O maior número é: " << num3;
+            cout << " O maior nÃºmero Ã©: " << num3;
         }
     return 0;
 }
